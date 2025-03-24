@@ -14,3 +14,18 @@ working - about 2 minutes for 10 iterations
 
 # hugginface 
 https://huggingface.co/docs/trl/grpo_trainer
+
+https://github.com/huggingface/smol-course
+
+Parameter-Efficient Fine-Tuning (PEFT)
+Methods like LoRA (Low-Rank Adaptation) allow you to efficiently adapt pre-trained models to new datasets by:
+
+Freezing the original model weights
+
+Adding small trainable adapter modules to specific layers
+
+Training only these new parameters on your dataset
+
+This approach is more memory-efficient than full fine-tuning while still effectively transferring knowledge.
+
+Retrieval-Augmented G
