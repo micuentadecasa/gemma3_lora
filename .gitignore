@@ -3,3 +3,4 @@ checkpoints/
 fused_model/
 adapters/
 data/
+unsloth_compiled_cache/
